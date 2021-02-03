@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		9520B2CD25CB25B4006F803D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2CC25CB25B4006F803D /* AppDelegate.swift */; };
 		9520B2CF25CB25B4006F803D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2CE25CB25B4006F803D /* SceneDelegate.swift */; };
-		9520B2D125CB25B4006F803D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2D025CB25B4006F803D /* ViewController.swift */; };
 		9520B2D425CB25B4006F803D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2D225CB25B4006F803D /* Main.storyboard */; };
 		9520B2D725CB25B4006F803D /* InstaPDP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2D525CB25B4006F803D /* InstaPDP.xcdatamodeld */; };
 		9520B2D925CB25B5006F803D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2D825CB25B5006F803D /* Assets.xcassets */; };
 		9520B2DC25CB25B5006F803D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2DA25CB25B5006F803D /* LaunchScreen.storyboard */; };
+		9520B2E925CB268B006F803D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2E725CB268B006F803D /* HomeViewController.swift */; };
+		9520B2EA25CB268B006F803D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2E825CB268B006F803D /* HomeViewController.xib */; };
+		9520B2EE25CB269F006F803D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2ED25CB269F006F803D /* SignUpViewController.swift */; };
+		9520B2F225CB26BD006F803D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2F025CB26BD006F803D /* SignInViewController.swift */; };
+		9520B2F325CB26BD006F803D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2F125CB26BD006F803D /* SignInViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9520B2C925CB25B4006F803D /* InstaPDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9520B2CC25CB25B4006F803D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9520B2CE25CB25B4006F803D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9520B2D025CB25B4006F803D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9520B2D325CB25B4006F803D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9520B2D625CB25B4006F803D /* InstaPDP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaPDP.xcdatamodel; sourceTree = "<group>"; };
 		9520B2D825CB25B5006F803D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9520B2DB25CB25B5006F803D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9520B2DD25CB25B5006F803D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9520B2E725CB268B006F803D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9520B2E825CB268B006F803D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9520B2ED25CB269F006F803D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9520B2F025CB26BD006F803D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9520B2F125CB26BD006F803D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,36 @@
 		9520B2CB25CB25B4006F803D /* InstaPDP */ = {
 			isa = PBXGroup;
 			children = (
+				9520B2E625CB25E3006F803D /* controllers */,
+				9520B2E425CB25C6006F803D /* apputils */,
 				9520B2CC25CB25B4006F803D /* AppDelegate.swift */,
 				9520B2CE25CB25B4006F803D /* SceneDelegate.swift */,
-				9520B2D025CB25B4006F803D /* ViewController.swift */,
-				9520B2D225CB25B4006F803D /* Main.storyboard */,
-				9520B2D825CB25B5006F803D /* Assets.xcassets */,
-				9520B2DA25CB25B5006F803D /* LaunchScreen.storyboard */,
 				9520B2DD25CB25B5006F803D /* Info.plist */,
-				9520B2D525CB25B4006F803D /* InstaPDP.xcdatamodeld */,
 			);
 			path = InstaPDP;
+			sourceTree = "<group>";
+		};
+		9520B2E425CB25C6006F803D /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				9520B2D525CB25B4006F803D /* InstaPDP.xcdatamodeld */,
+				9520B2D225CB25B4006F803D /* Main.storyboard */,
+				9520B2DA25CB25B5006F803D /* LaunchScreen.storyboard */,
+				9520B2D825CB25B5006F803D /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		9520B2E625CB25E3006F803D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9520B2E725CB268B006F803D /* HomeViewController.swift */,
+				9520B2E825CB268B006F803D /* HomeViewController.xib */,
+				9520B2ED25CB269F006F803D /* SignUpViewController.swift */,
+				9520B2F025CB26BD006F803D /* SignInViewController.swift */,
+				9520B2F125CB26BD006F803D /* SignInViewController.xib */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +155,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9520B2F325CB26BD006F803D /* SignInViewController.xib in Resources */,
 				9520B2DC25CB25B5006F803D /* LaunchScreen.storyboard in Resources */,
 				9520B2D925CB25B5006F803D /* Assets.xcassets in Resources */,
 				9520B2D425CB25B4006F803D /* Main.storyboard in Resources */,
+				9520B2EA25CB268B006F803D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9520B2D725CB25B4006F803D /* InstaPDP.xcdatamodeld in Sources */,
-				9520B2D125CB25B4006F803D /* ViewController.swift in Sources */,
 				9520B2CD25CB25B4006F803D /* AppDelegate.swift in Sources */,
+				9520B2F225CB26BD006F803D /* SignInViewController.swift in Sources */,
 				9520B2CF25CB25B4006F803D /* SceneDelegate.swift in Sources */,
+				9520B2E925CB268B006F803D /* HomeViewController.swift in Sources */,
+				9520B2EE25CB269F006F803D /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,8 +20,10 @@ class SignInViewController: UIViewController {
     // MARK: - Method
     
     func callSignUpController() {
-        let vc = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
+        let vc:SignUpViewController = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
+        
         self.present(vc, animated: true, completion: nil)
+        
     }
     
     

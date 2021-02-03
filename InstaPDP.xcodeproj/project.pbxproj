@@ -15,9 +15,10 @@
 		9520B2DC25CB25B5006F803D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2DA25CB25B5006F803D /* LaunchScreen.storyboard */; };
 		9520B2E925CB268B006F803D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2E725CB268B006F803D /* HomeViewController.swift */; };
 		9520B2EA25CB268B006F803D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2E825CB268B006F803D /* HomeViewController.xib */; };
-		9520B2EE25CB269F006F803D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2ED25CB269F006F803D /* SignUpViewController.swift */; };
 		9520B2F225CB26BD006F803D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2F025CB26BD006F803D /* SignInViewController.swift */; };
 		9520B2F325CB26BD006F803D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2F125CB26BD006F803D /* SignInViewController.xib */; };
+		9520B2F825CB36DA006F803D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520B2F625CB36DA006F803D /* SignUpViewController.swift */; };
+		9520B2F925CB36DA006F803D /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9520B2F725CB36DA006F803D /* SignUpViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +32,10 @@
 		9520B2DD25CB25B5006F803D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9520B2E725CB268B006F803D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9520B2E825CB268B006F803D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		9520B2ED25CB269F006F803D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9520B2F025CB26BD006F803D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9520B2F125CB26BD006F803D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		9520B2F625CB36DA006F803D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9520B2F725CB36DA006F803D /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +93,10 @@
 			children = (
 				9520B2E725CB268B006F803D /* HomeViewController.swift */,
 				9520B2E825CB268B006F803D /* HomeViewController.xib */,
-				9520B2ED25CB269F006F803D /* SignUpViewController.swift */,
 				9520B2F025CB26BD006F803D /* SignInViewController.swift */,
 				9520B2F125CB26BD006F803D /* SignInViewController.xib */,
+				9520B2F625CB36DA006F803D /* SignUpViewController.swift */,
+				9520B2F725CB36DA006F803D /* SignUpViewController.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				9520B2DC25CB25B5006F803D /* LaunchScreen.storyboard in Resources */,
 				9520B2D925CB25B5006F803D /* Assets.xcassets in Resources */,
 				9520B2D425CB25B4006F803D /* Main.storyboard in Resources */,
+				9520B2F925CB36DA006F803D /* SignUpViewController.xib in Resources */,
 				9520B2EA25CB268B006F803D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,12 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9520B2F825CB36DA006F803D /* SignUpViewController.swift in Sources */,
 				9520B2D725CB25B4006F803D /* InstaPDP.xcdatamodeld in Sources */,
 				9520B2CD25CB25B4006F803D /* AppDelegate.swift in Sources */,
 				9520B2F225CB26BD006F803D /* SignInViewController.swift in Sources */,
 				9520B2CF25CB25B4006F803D /* SceneDelegate.swift in Sources */,
 				9520B2E925CB268B006F803D /* HomeViewController.swift in Sources */,
-				9520B2EE25CB269F006F803D /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

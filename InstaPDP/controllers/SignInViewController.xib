@@ -23,7 +23,7 @@
                     <rect key="frame" x="0.0" y="802" width="414" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HtC-Hu-OcK">
-                            <rect key="frame" x="48" y="20" width="261" height="34"/>
+                            <rect key="frame" x="77" y="18" width="261" height="34"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an accaunt?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x01-BS-QRj">
                                     <rect key="frame" x="0.0" y="0.0" width="188" height="34"/>
@@ -46,8 +46,8 @@
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="HtC-Hu-OcK" firstAttribute="centerY" secondItem="VrX-zn-XPW" secondAttribute="centerY" constant="7" id="EMp-Hq-ANL"/>
-                        <constraint firstItem="HtC-Hu-OcK" firstAttribute="centerX" secondItem="VrX-zn-XPW" secondAttribute="centerX" constant="-28.5" id="OIL-lR-wD8"/>
+                        <constraint firstItem="HtC-Hu-OcK" firstAttribute="centerY" secondItem="VrX-zn-XPW" secondAttribute="centerY" constant="5" id="EMp-Hq-ANL"/>
+                        <constraint firstItem="HtC-Hu-OcK" firstAttribute="centerX" secondItem="VrX-zn-XPW" secondAttribute="centerX" constant="0.5" id="OIL-lR-wD8"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zHZ-xO-dAE">
@@ -74,6 +74,7 @@
                                 </label>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ixi-Vg-wg0">
                                     <rect key="frame" x="20" y="70" width="334" height="45"/>
+                                    <color key="backgroundColor" systemColor="systemGray6Color"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="45" id="PHn-f4-tFL"/>
                                     </constraints>
@@ -82,6 +83,7 @@
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a4A-mg-fgt">
                                     <rect key="frame" x="20" y="135" width="334" height="45"/>
+                                    <color key="backgroundColor" systemColor="systemGray6Color"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="45" id="QB4-oG-Xj0"/>
                                     </constraints>
@@ -155,6 +157,9 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

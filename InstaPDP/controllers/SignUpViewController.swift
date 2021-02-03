@@ -2,7 +2,7 @@
 //  SignUpViewController.swift
 //  InstaPDP
 //
-//  Created by Boburmirzo on 2/3/21.
+//  Created by Boburmirzo on 2/4/21.
 //
 
 import UIKit
@@ -14,16 +14,16 @@ class SignUpViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+
+
     
+    // MARK: - Action
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func onSignIn(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
-    */
+    
+    
+    
 
 }
